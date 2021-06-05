@@ -15,7 +15,7 @@ class bancAccauont:
             return f"my balans:{self._balans}"
 
 Accauont = bancAccauont('kadyrbek', 2000)
-Accauont._balans = 300
+Accauont._balans = -300
 
 print(Accauont.name)
 print(Accauont.balans)
